@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Palace Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="inicio">
+        <h1>Grand Palace Hotel</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#reserva">Faça sua reserva</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="reserva">
+
+            <h2>Faça sua Reserva</h2>
+
+            <p>
+                Garanta sua estadia no Grand Palace Hotel com total conforto e sofisticação. Preencha os dados abaixo para solicitar sua reserva.
+            </p>
+
+            <form>
+
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+
+
+                <label for="data-checkin">Data de Check-in:</label>
+                <input type="date" id="data-checkin" name="data-checkin" required>
+
+
+                <label for="data-checkout">Data de Check-out:</label>
+                <input type="date" id="data-checkout" name="data-checkout" required>
+
+
+                <label for="acomodacao">Tipo de Acomodação:</label>
+
+                <select id="acomodacao" name="acomodacao" required>
+
+                    <option value="luxo">Suíte Luxo</option>
+                    <option value="master">Suíte Master Premium</option>
+                    <option value="familia">Quarto Família Confort</option>
+
+                </select>
+
+
+                <button type="submit">
+                    Solicitar Reserva
+                </button>
+
+            </form>
+
+        </section>
+
+        <section id="fotos">
+
+            <h2>Conheça Nosso Hotel</h2>
+
+            <p>
+                Explore a infraestrutura impecável do Grand Palace Hotel. Navegue pela nossa galeria e encante-se com nossas suítes exclusivas, piscina com vista panorâmica e áreas de lazer de alto padrão.
+            </p>
+
+            <div class="galeria-fotos">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiBgizIOJFyqEAAIbzxIjVnhIBN5aNpz8Z-9oJ40IWDg&s=10" alt="Fachada do Grand Palace Hotel e área externa com piscina iluminada">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.G_ZzgkIe5n7tvIQhf_tf-gHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Suíte de luxo moderna com cama king size e vista panorâmica">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.O8Dq-TjY2sxax2CchZJD-gHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Restaurante do hotel finamente decorado para jantares sofisticados">
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="contato">
+        
+        <div id="redes">
+            <h2>Contatos:</h2>
+            <br>
+            <a href="https://instagram.com"><img class="logo" src="https://cdn-icons-png.flaticon.com/128/4138/4138124.png" alt=""></a>
+            <a href="https://web.whatsapp.com"><img class="logo" src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png" alt=""></a>
+            <a href="https://facebook.com"><img class="logo" src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt=""></a>
+        </div>
+
+        <p>
+            &copy; 2026 - Grand Palace Hotel. Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+</html>
